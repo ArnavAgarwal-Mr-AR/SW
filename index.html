@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spinning Wheel</title>
+    <style>
+        /* Add the custom font using .ttf file */
+        @font-face {
+            font-family: 'CustomFont';
+            src: url('spinweradC.ttf') format('truetype'); /* Use .ttf format */
+        }
+        body {
+            background-color: #000000; /* Dark theme background */
+            color: #ffffff; /* White text for contrast */
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 auto;
+            max-width: 1200px;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .logo {
+            max-width: 300px; /* Increased logo size */
+            height: auto;
+            margin-right: 20px;
+        }
+        .company-name {
+            font-family: 'CustomFont', Arial, sans-serif; /* Use custom font for the company name */
+            font-size: 5rem; /* Increased font size */
+        }
+        img {
+            max-width: 100%; /* Ensures images are responsive */
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .development-note {
+            margin-top: 40px;
+            font-size: 1.5rem;
+            opacity: 0.8;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="logo dark theme.gif" alt="Company Logo" class="logo"> <!-- Add your logo image path here -->
+            <h1 class="company-name">Spinning Wheel</h1>
+        </div>
+
+        <img src="page2.gif" alt="Page 2">
+        <img src="page3.gif" alt="Page 3">
+        <img src="subs.png" alt="Subscription Details">
+
+        <div class="development-note"> The Subscription prices mentioned are not actual prices. <br>
+            The app is currently under development. Stay tuned for updates!</div>
+    </div>
+</body>
+</html>
